@@ -208,7 +208,7 @@ footer{
     width: 30px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 490px) {
     .para{
         font-size: 50px;
     }
