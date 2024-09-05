@@ -1,0 +1,258 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    align-items: center;
+    color: white;
+}
+.ul{
+    list-style: none;
+}
+nav.navbar ul.ul li{
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+.p{
+    font-size: 25px;
+    margin-left: 5px;
+}
+ul.ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.logodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo{ 
+    width: 70px;
+    border-radius: 50%;
+    height: 60px;
+}
+
+ul.ul li a:hover{
+    color: rgba(255, 255, 255, 0.752);
+}
+.para{
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+.gg{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(192, 192, 196); 
+    
+}
+.background{
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images.jpeg");
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.background::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80vh;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(44, 42, 42, 0.752);
+
+}
+
+.btndiv{
+    margin-top: 25px;
+}
+
+.btn{
+background-color: red;
+padding: 7% 2%;
+color: white;
+width: 150px;
+border-radius: 20px;
+border: 2px ridge rgb(231, 148, 148);
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.aboutsection{
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 5rem 2rem;
+}
+
+.staff{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 4rem 0rem;
+}
+
+.staffimg{
+    width: 400px;
+    border-radius: 10px;
+}
+.staffinfo{
+    width: 500px;
+    margin: 0rem 2rem;
+    text-align: justify;
+}
+
+div.staffinfo h2{
+    font-size: 3rem;
+}
+div.staffinfo p{
+    font-size: 1.2rem;
+}
+.fil{
+    text-transform: capitalize;
+    display: table-cell;
+}
+.bt{
+    color: white;
+    background-color: crimson;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px ridge rgb(231, 148, 148);
+    margin: 2% auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contactsection{
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    background-color: blue;
+    color: beige;
+    padding: 2% 0;
+}
+.formcontainer{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    display: table;
+}
+
+form div {
+    display: table-row;
+}
+
+form div input{
+    display: table-cell;
+    margin-bottom: 10px;
+    padding: 2%;
+    outline: none;
+    border: none;
+}
+.btdiv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.mmm{
+    display: table-cell;
+    margin-bottom: 10px;
+    padding: 2%;
+    outline: none;
+    border: none;
+}
+.cas{
+    text-decoration: none;
+}
+.car{
+    justify-content: center;
+    text-align: center;
+    padding: 3px;
+    background-color: blueviolet;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+}
+.socials img{
+    width: 30px;
+}
+
+@media (max-width: 450px) {
+    .para{
+        font-size: 50px;
+    }
+    .p{
+        font-size: 15px;
+        margin-left: 2px;
+    }
+    .logo{ 
+        width: 40px;
+        border-radius: 50%;
+        height: 40px;
+    }
+    nav.navbar ul.ul li{
+        display: inline-block;
+        padding: 0.5rem 0.5rem;
+        font-size: 15px;
+    }
+    .navbar{
+        padding: 0.5rem 1rem;
+    }
+    div.staffinfo h2{
+        font-size: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    div.staffinfo p{
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media (max-width: 350px){
+    .navbar{
+        padding: 0.5rem 0.5rem;
+    }
+    nav.navbar ul.ul li{
+        font-size: 15px;
+    }
+}
+.hhh{
+    font-size: 100px;
+}
+.aaa{
+    color: white;
+    text-decoration: none;
+}
